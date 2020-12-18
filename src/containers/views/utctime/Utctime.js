@@ -1,8 +1,8 @@
 import React  from 'react';
-import './Game2.css';
+import './Utctime.css';
 import image from './images/image.png'
 
-class Game2 extends React.Component {
+class Utctime extends React.Component {
   constructor(props) {
     super(props);
     this.state = {date: new Date()};
@@ -41,4 +41,4 @@ class Game2 extends React.Component {
 }
 
 
-export default Game2;
+export default Utctime;

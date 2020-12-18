@@ -1,4 +1,4 @@
-import {Home, AddList, Users, Game, Game1, Game2} from './views';
+import {Home, AddList, Users, Game, Converter, Utctime} from './views';
 import {MainLayout} from '../components/layouts';
 
 export {
@@ -6,7 +6,7 @@ export {
   AddList,
   Users,
   Game,
-  Game1,
-  Game2,
+  Converter,
+  Utctime,
   MainLayout
 }

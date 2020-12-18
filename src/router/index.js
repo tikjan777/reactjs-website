@@ -1,5 +1,5 @@
 import {MainLayout} from '../components/layouts/MainLayout';
-import {Game, Game1, Game2, Home, AddList, Users} from '../containers/views';
+import {Game, Converter, Utctime, Home, AddList, Users} from '../containers/views';
 import {BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import React from 'react';
 
@@ -36,14 +36,14 @@ const MainRouter = () => {
 
           <Route
             exact
-            path="/game1"
-            component={Game1}
+            path="/converter"
+            component={Converter}
           />
 
           <Route
             exact
-            path="/game2"
-            component={Game2}
+            path="/utctime"
+            component={Utctime}
           />
 
           <Route exact path="/" component={Home} />

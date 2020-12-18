@@ -1,8 +1,8 @@
 import React from 'react';
-import './Game1.css';
+import './Converter.css';
 
 
-function Game1(){
+function Converter(){
   const [temp, updateTemp] = React.useState({ f: 0, c: 0 })
 
   const updateC = ev => updateTemp({
@@ -39,6 +39,4 @@ function Game1(){
 }
 
 
-
-
-export default Game1;
+export default Converter;

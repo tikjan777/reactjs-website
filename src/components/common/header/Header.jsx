@@ -20,12 +20,12 @@ const Header = ({children, ...props}) => {
         <CourseButton type='navigation' to="/game">
           Tic-Tac-Toe
         </CourseButton>
-        <CourseButton type='navigation' to="/game1">
+        <CourseButton type='navigation' to="/converter">
           °C to °F Converter
         </CourseButton>
 
-        <CourseButton type='navigation' to="/game2">
-          utc time
+        <CourseButton type='navigation' to="/utctime">
+          Utc time
         </CourseButton>
 
         {children}
