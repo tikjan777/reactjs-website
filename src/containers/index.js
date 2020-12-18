@@ -1,9 +1,12 @@
-import {Home, Repositories, Users} from './views';
-import {MainLayout} from './layouts';
+import {Home, AddList, Users, Game, Game1, Game2} from './views';
+import {MainLayout} from '../components/layouts';
 
 export {
   Home,
-  Repositories,
+  AddList,
   Users,
-  MainLayout,
+  Game,
+  Game1,
+  Game2,
+  MainLayout
 }

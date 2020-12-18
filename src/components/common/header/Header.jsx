@@ -14,9 +14,20 @@ const Header = ({children, ...props}) => {
         <CourseButton type='navigation' to="/users">
           Users
         </CourseButton>
-        <CourseButton type='navigation' to="/repositories">
-          Repositories
+        <CourseButton type='navigation' to="addlist">
+          To do list 
         </CourseButton>
+        <CourseButton type='navigation' to="/game">
+          Tic-Tac-Toe
+        </CourseButton>
+        <CourseButton type='navigation' to="/game1">
+          °C to °F Converter
+        </CourseButton>
+
+        <CourseButton type='navigation' to="/game2">
+          utc time
+        </CourseButton>
+
         {children}
       </Toolbar>
     </AppBar>

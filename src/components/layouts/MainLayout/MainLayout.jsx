@@ -1,5 +1,5 @@
 import React from 'react';
-import {Header} from '../../../components';
+import {Header} from '../../index';
 import {Container, Paper} from '@material-ui/core';
 import "./MainLayout.css"
 
